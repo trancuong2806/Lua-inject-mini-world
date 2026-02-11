@@ -27,7 +27,7 @@ return id + 1000000000
 end
 for i=1,100 do
 local msg = {}
-id = 71666036
+id = 1000
 msg.role_id   = uid(id)
 msg.itemid    = 1
 msg.itemnum   = 1
@@ -39,3 +39,4 @@ SandboxLuaMsg.sendToHost(
 end 
 '''
 exec_lua(script_lua)
+
